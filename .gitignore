@@ -1,0 +1,42 @@
+# Byte-compiled / Intermediate files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environment
+drowsiness_env/
+.venv/
+
+
+# Logs & Debugging Files
+*.log
+*.csv
+drowsiness_log.csv
+
+# System-Specific Files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+
+# Machine Learning Models & Data
+*.tflite
+*.h5
+*.pkl
+*.onnx
+*.pb
+*.weights
+
+# Raspberry Pi Specific
+core
+*.bak
+*.lock
+
+# Config & Secrets
+.env
